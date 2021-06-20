@@ -39,7 +39,6 @@ CPMAddPackage(
         GITHUB_REPOSITORY juce-framework/JUCE
         GIT_TAG origin/develop)
 
-add_subdirectory(modules)
 #adding any custom modules you might have:
 #adding project folders:
 add_subdirectory(plugin)

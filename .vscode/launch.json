@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/_deps/juce-build/extras/AudioPluginHost/AudioPluginHost_artefacts/Debug/AudioPluginHost.app/Contents/MacOS/AudioPluginHost",
-            "args": [],
+            "args": ["${workspaceFolder}/plugin/NewPluginTemplate.filtergraph"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
